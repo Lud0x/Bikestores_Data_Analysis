@@ -1,3 +1,4 @@
+--With this query, we retrieved all the tables to be used for analysis
 select 
 	ord.order_id,
 	concat(cus.first_name,' ',cus.last_name) as 'Customers',
